@@ -1,0 +1,71 @@
+.button {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.85);
+  border-radius: 5px;
+  width: 109px;
+  height: 51px;
+  line-height: 28px;
+  background-color: transparent;
+  cursor: pointer;
+
+  &:hover {
+    color: #1890ff;
+  }
+
+  &:hover:not(.without-border, .avatar, .blue) {
+    border: 1px solid #1890ff;
+  }
+}
+
+.green, button:hover.blue {
+  color: #52C41A;
+  border: 1px solid #52C41A;
+}
+
+.red {
+  color: #F5222D;
+  border: 1px solid #F5222D;
+}
+
+.blue {
+  color: #1890FF;
+  border: 1px solid #1890FF;
+}
+
+.without-border {
+  border: none;
+}
+
+.create-article {
+  font-size: 14px;
+  line-height: 22px;
+  width: 112px;
+  height: 31px;
+}
+
+.avatar {
+  border: none;
+  display: flex;
+  column-gap: 13px;
+  width: auto;
+  height: auto;
+  align-items: center;
+}
+
+.black {
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.article-form {
+  height: inherit;
+  border-radius: 4px;
+}
+
+.article-page {
+  font-size: 14px;
+  line-height: 22px;
+  padding: 5px 16px 4px;
+  height: auto;
+  width: auto;
+}
